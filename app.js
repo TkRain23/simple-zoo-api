@@ -4,31 +4,17 @@ const app = express()
 
 const zoos = {
     'Zoolander': {
-        animals:
-            [
-                {
-                    name: 'Jerry',
-                    species: 'giraffe'
-                },
-                {
-                    name: 'boyo',
-                    species: 'badger'
-                }
-            ],
+        animals: [
+            { name: 'Jerry', species: 'giraffe' },
+            { name: 'boyo', species: 'badger' }
+        ],
         location: 'San Francisco'
     },
     'Meet the parents': {
-        animals:
-            [
-                {
-                    name: 'bill',
-                    species: 'zebra'
-                },
-                {
-                    name: 'boyo',
-                    species: 'badger'
-                }
-            ],
+        animals:[
+            { name: 'bill', species: 'zebra' },
+            { name: 'boyo', species: 'badger' }
+        ],
         location: 'San Francisco'
     }
 }
